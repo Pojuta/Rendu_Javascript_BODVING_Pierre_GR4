@@ -1,0 +1,139 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+body {
+    background-color: gold; /*La couleur de base du fond du site qui est le light mode */
+}
+
+
+h1, a, h2, p, label {
+    color: rgb(42, 41, 1); /*Paramètre les h1, a, h2, p et label d'être d'une certaine couleur par défaut, ici, le light mode*/
+}
+
+.persona4-dark-theme {
+    background-color: rgb(42, 41, 1); /*Tout les changements apportés par le dark mode */
+
+    h1, a, h2, p, label {
+        color: gold;
+    }
+}
+
+.persona4-theme-card {
+    background-color: goldenrod;
+}
+
+.logoJackFrost {
+    height: 200px;
+    width: 150px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.main-title {
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 15px;
+    font-size: xx-large;
+}
+
+.main-menu {
+    padding-right: 15px;
+}
+
+.main-menu-title {
+    font-size: 30px;
+}
+
+.main-menu-decoration {
+    text-decoration-line: none;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.width30 {
+    width: 40%;
+}
+
+.width60 {
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.persona4-Background {
+    background-image: url('Images/Persona4Background.jpg'); /*Pour ajouter une image en fond d'une section de la page 1 d'HTML (pas fonctinnel en l'état)*/
+}
+
+.p-size {
+    font-size: 30px;
+}
+
+.title-size {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.invalide {
+
+    border: 1px solid brown; /*Le CSS pour rendre les cases du formulaire rouge quand le contenu n'est pas correct*/
+
+    background-color: red;
+}
+
+.valide {
+
+    border: 1px solid green; /*Le CSS pour rendre les cases du formulaires vertes quand le contenu est correct*/
+
+    background-color: greenyellow;
+}
+
+.password-égal {
+
+    border: 1px solid green; /*Le CSS spécial au formulaire pour la vérification du mot de passe. Ici, si les deux mots de passe sont identiques*/
+
+    background-color: greenyellow;
+}
+
+.password-inégal {
+
+    border: 1px solid brown; /*Le CSS spécial au formulaire pour la vérification du mot de passe. Ici, si les deux mots de passe ne sont pas identiques*/
+
+    background-color: red;
+}
+
+.content {
+
+    display: none; /*Une classe qui désactive un élément. Utilisé pour les tabs*/
+}
+
+.active {
+
+    display: block;
+}
+

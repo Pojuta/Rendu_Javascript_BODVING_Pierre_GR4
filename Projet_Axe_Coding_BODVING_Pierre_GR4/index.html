@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Persona World</title>
+</head>
+
+<body>
+
+    <header class="d-flex align-items-center border">
+
+        <img src="Images/JackFrost.png" alt="Logo site Jack Frost" class="logoJackFrost">
+
+        <div class="main-title width30">
+
+            <h1>Persona World</h1>
+
+        </div>
+
+        
+
+        <nav class="d-flex justify-content-flex-end align-items-center main-menu width60">
+
+            <ul>
+
+                <li>
+
+                    <input type="button" id="darkModeButton" value="Light/Dark mode"> <!--Le bouton qui, via le javascript permet d'activer et de désactiver le dark mode-->
+
+                </li>
+
+            </ul>
+
+            <ul>
+
+                <li class="main-menu-title">
+
+                    <a class="main-menu-decoration" href="">Persona 3</a>
+
+                </li>
+
+            </ul>
+            
+            <ul>
+
+                <li class="main-menu-title">
+
+                    <a class="main-menu-decoration" href="">Persona 4</a>
+
+                </li>
+
+            </ul>
+
+            <ul>
+
+                <li class="main-menu-title">
+
+                    <a class="main-menu-decoration" href="">Persona 5</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main class="d-flex flex-column justify-content-center align-items-center">
+
+        <section class="d-flex flex-column persona4-Background align-items-center">
+
+            <h2 class="title-size">Persona 4</h2>
+
+            <p class="p-size">Découvrez ou redécouvrez la licence Persona avec son jeu de TCG officiel avec la toute nouvelle extension : Persona 4 Golden !</p>
+
+        </section>
+
+        <br>
+
+        <section>
+
+            <article class="d-flex justify-content-between">
+
+                <ul>
+
+                    <li class="persona4-theme-card">
+                        
+                        <p>Narukami Yu</p>
+                    
+                    </li>
+
+                </ul>
+
+                <ul>
+
+                    <li class="persona4-theme-card">
+                        
+                        <p>Hanamura Yosuke</p>
+                    
+                    </li>
+
+                </ul>
+
+            </article>
+        
+        </section>
+
+        <section>
+
+            <div class="d-flex justify-content-center">
+
+                <h2>Les types de cartes Personnages</h2>
+
+            </div>
+
+            <div class="d-flex">
+
+                <ul>
+
+                    <li class="d-flex flex-column tab tab-héros tab-active"> <!--Des classes pour créer les tabs via le javascript-->
+
+                        <p>Les Héros</p>
+
+                    </li>
+
+                </ul>
+
+                <ul>
+
+                    <li class="d-flex flex-column tab tab-alliés">
+
+                        <p>Les Alliés</p>
+
+                        
+
+                    </li>
+                    
+                </ul>
+
+                <ul>
+
+                    <li class="d-flex flex-column tab tab-personae">
+
+                        <p>Les Personae</p>
+
+                        
+
+                    </li>
+                    
+                </ul>
+            
+            </div>
+
+        </section>
+
+        <section class="d-flex">
+
+            <div>
+
+                <img src="Images/AmagiYukiko.png" alt="Image de Amagi Yukiko" class="pictureAmagiYukiko content héros active">
+
+            </div>
+
+            <div>
+
+                <img src="Images/DojimaNanako.png" alt="Image de Dojima Nanako" class="pictureDojimaNanako content alliés">
+
+            </div>
+
+            <div>
+
+                <img src="Images/JackO'Lantern.png" alt="Image d'un Jack O'Lantern" class="pictureJackO'Lantern content personae">
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <div class="d-flex flex-column justify-content-center align-items-center">
+
+                <h2>Accédez à votre compte membre pour gérer vos cartes sur n'importe quel supports !</h2>
+
+                <br>
+
+                <p>Connectez-vous !</p>
+
+                <input type="button" id="buttonForPage2" value="Go to connection page"> <!--Bouton permettant de passer à la page 2, la page de connexion. Le passage à la page suivante est géré par le Javascript-->
+
+                <br>
+
+            </div>
+
+        </section>
+    
+    </main>
+
+    <footer class="d-flex justify-content-center border">
+
+        <p>Blablabla de test</p>
+
+    </footer>
+
+<script src="main.js"></script> <!--L'élément "script" permet à la page de Javascript "main.js" de pouvoir interagir avec la page HTML "index.html"-->
+
+</body>
+
+</html>

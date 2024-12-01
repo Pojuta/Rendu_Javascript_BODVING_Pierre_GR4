@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Persona World</title>
+</head>
+
+<body>
+
+    <header class="d-flex align-items-center border">
+
+        <img src="Images/JackFrost.png" alt="Logo site Jack Frost" class="logoJackFrost">
+
+        <div class="main-title width30">
+
+            <h1>Persona World</h1>
+
+        </div>
+
+        
+
+        <nav class="d-flex justify-content-flex-end align-items-center main-menu width60">
+
+            <ul>
+
+                <li>
+
+                    <input type="button" id="darkModeButton" value="Light/Dark mode"> <!--Le bouton qui, via le javascript permet d'activer et de désactiver le dark mode-->
+
+                </li>
+
+            </ul>
+
+            <ul>
+
+                <li class="main-menu-title">
+
+                    <a class="main-menu-decoration" href="">Persona 3</a>
+
+                </li>
+
+            </ul>
+            
+            <ul>
+
+                <li class="main-menu-title">
+
+                    <a class="main-menu-decoration" href="index.html">Persona 4</a>
+
+                </li>
+
+            </ul>
+
+            <ul>
+
+                <li class="main-menu-title">
+
+                    <a class="main-menu-decoration" href="">Persona 5</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <br>
+
+        <section class="d-flex flex-column justify-content-center">
+
+            <div>
+
+                <h2 class="title-size d-flex flex-column justify-content-center align-items-center">Connectez-vous</h2>
+
+            </div>
+
+            <form action="" method="post" enctype="multipart/form-data"> <!--Début du formulaire-->
+
+                <div class="d-flex flex-column justify-content-center align-items-center"> <!--Le label et le input forme le champ du formulaire pour le pseudo-->
+
+                    <label class="p-size" for="pseudo">Pseudo</label>
+
+                    <br>
+
+                    <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo">
+
+                </div>
+
+                <br>
+
+                <div class="d-flex flex-column justify-content-center align-items-center">
+
+                    <label class="p-size" for="email">Email</label> <!--Le champ du formulaire du mail-->
+
+                    <br>
+
+                    <input type="email" id="email" name="email" placeholder="Votre adresse email">
+
+                </div>
+
+                <br>
+                
+                <div class="d-flex flex-column justify-content-center align-items-center">
+
+                    <label class="p-size" for="password">Mot de passe</label> <!--Le champ du formulaire du mot de passe-->
+
+                    <br>
+
+                    <input type="password" id="password" name="password" placeholder="Votre mot de passe">
+
+                </div>
+
+                <br>
+                
+                <div class="d-flex flex-column justify-content-center align-items-center">
+
+                    <label class="p-size" for="rePassword">Vérification mot de passe</label> <!--Le champ du formaulaire de la vérification du mot de passe-->
+
+                    <br>
+
+                    <input type="password" id="rePassword" name="rePassword" placeholder="Entrez votre mot de passe une nouvelle fois">
+
+                </div>
+
+                <div class="d-flex flex-column justify-content-center align-items-center">
+
+                    <p class="p-size">Quel est votre genre ?</p>
+
+                    <select name="genderQuestion" id=""> <!--La balise select permet de faire une question avec des choix imposés, ici, choix unique-->
+
+                        <option value="homme">Homme</option>
+
+                        <option value="femme">Femme</option>
+
+                        <option value="nonbinary">Non-binaire</option>
+
+                    </select>
+
+                </div>
+
+                <br>
+                <br>
+
+                <div class="d-flex flex-column justify-content-center align-items-center">
+
+                    <button type="submit">Envoyer</button> <!--Un bouton pour "envoyer le formulaire"-->
+                
+                </div>
+            
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="main2.js"></script>
+
+</body>
+
+</html>
